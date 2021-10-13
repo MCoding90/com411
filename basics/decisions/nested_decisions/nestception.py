@@ -12,7 +12,11 @@ if place == "in the bedroom":
     else:
         print("Found some mess but no battery.")
 
+<<<<<<< HEAD
     # Check the bathroom
+=======
+# Check the bathroom
+>>>>>>> 900d1a0e07d334b00faa5ec615243146d54c7fe4
 elif place == "in the bathroom":
     print("Where in the bathroom should I look?")
     bathroom_place = input()

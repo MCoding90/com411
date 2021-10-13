@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Read in user data
+=======
+>>>>>>> 900d1a0e07d334b00faa5ec615243146d54c7fe4
 print("What is your name?")
 name = input()
 
