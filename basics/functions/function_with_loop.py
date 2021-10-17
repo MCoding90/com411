@@ -1,12 +1,12 @@
-def cross_bridge():
+def cross_bridge(steps):
     print("Crossed step")
-    distance = input()
 
-    if distance > 5 :
+    for step in range(steps):
+      if steps > 5:
         print("The bridge is collapsing")
 
-    else:
+      else:
         print("We must keep going")
 
-cross_bridge()
-cross_bridge()
+cross_bridge(3)
+cross_bridge(6)
