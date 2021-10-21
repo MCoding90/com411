@@ -5,8 +5,8 @@ def search(file_name):
             print(f"Looked in {location.strip()}")
         print("Done!")
 
-    def run():
-        search("library.txt")
+def run():
+    search("library.txt")
 
-    if __name__ == "__main__":
-        run()
+if __name__ == "__main__":
+    run()
