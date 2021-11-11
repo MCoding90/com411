@@ -10,7 +10,6 @@ def coordinate():
 
     return (x, y)
 
-
 def path():
     print("Retrieving path...")
     x_values = []
