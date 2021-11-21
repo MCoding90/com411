@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import csv
 
 def read_data():
-    with open('C:/Users/czerw/PycharmProjects/com411/visual/subplots/temps.csv') as file:
+    with open("temps.csv") as file:
         csv_reader = csv.reader(file)
 
         header = next(csv_reader)
@@ -16,7 +16,7 @@ def read_data():
 
 
 def run():
-    data = read_data()
+    data = read_data('C:/Users/czerw/PycharmProjects/com411/visual/subplots/temps.csv')
 
     fig, (ax1, ax2) = plt.subplots(1, 2)
     ax1.plot(range(len(data['week1'])), data['week1'])

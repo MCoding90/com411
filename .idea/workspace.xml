@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2011548a-cbfe-409e-a158-26cdcc2f98d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/subplots/temps.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/subplots/week_temps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visuals/subplots/temps.py" beforeDir="false" afterPath="$PROJECT_DIR$/visuals/subplots/temps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visuals/subplots/week_temps.py" beforeDir="false" afterPath="$PROJECT_DIR$/visuals/subplots/week_temps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../com421" />
   </component>
-  <component name="RunManager" selected="Python.week_temps">
+  <component name="RunManager" selected="Python.temps">
     <configuration name="dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="com411" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="read_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="com411" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visuals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/files/csv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visuals/squares.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/files/csv/read_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,17 +141,17 @@
     <list>
       <item itemvalue="Python.dict" />
       <item itemvalue="Python.path" />
-      <item itemvalue="Python.squares" />
       <item itemvalue="Python.temps" />
       <item itemvalue="Python.week_temps" />
+      <item itemvalue="Python.read_csv" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.week_temps" />
         <item itemvalue="Python.temps" />
+        <item itemvalue="Python.week_temps" />
+        <item itemvalue="Python.read_csv" />
         <item itemvalue="Python.path" />
         <item itemvalue="Python.dict" />
-        <item itemvalue="Python.squares" />
       </list>
     </recent_temporary>
   </component>
