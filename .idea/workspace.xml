@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2011548a-cbfe-409e-a158-26cdcc2f98d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visuals/subplots/week_temps.py" beforeDir="false" afterPath="$PROJECT_DIR$/visuals/subplots/week_temps.py" afterDir="false" />
     </list>
@@ -32,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../com421" />
   </component>
-  <component name="RunManager" selected="Python.temps">
+  <component name="RunManager" selected="Python.week_temps">
     <configuration name="dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="com411" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,9 +148,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.temps" />
         <item itemvalue="Python.week_temps" />
         <item itemvalue="Python.read_csv" />
+        <item itemvalue="Python.temps" />
         <item itemvalue="Python.path" />
         <item itemvalue="Python.dict" />
       </list>
