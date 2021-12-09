@@ -44,4 +44,10 @@ if (__name__ == "__main__"):
     human.display()
     print(repr(human))
     print(str(human))
+    human.move(10)
+    print(repr(human))
+    human.eat(5)
+    print(repr(human))
+    human.eat(20)
+    print(repr(human))
 
