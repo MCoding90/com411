@@ -32,9 +32,29 @@ class Universe:
         # add to list of planets
         self.planets.append(planet)
 
+    def show_populations(self):
+        num_subplots = len(self.planets)
+
+        fig = plt.figure()
+
+        for index in range(num_subplots):
+            planet = self.planets[index]
+            num_humans = len(planet.inhabitants['humans'])
+            num_robots = len(planet.inhabitants['robots'])
+
+            ax = fig.add_subplot(1, num_subplots, index + 1)
+            ax.bar([1, 2], [num_humans, num_robots])
+
+        plt.tight_layout()
+        plt.show()
+
+
+
+
 if __name__ == "__main__":
   universe = Universe()
   universe.generate()
   universe.generate()
   print(repr(universe))
   print(str(universe))
+  universe.show_populations()
