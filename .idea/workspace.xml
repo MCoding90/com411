@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2011548a-cbfe-409e-a158-26cdcc2f98d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop/human.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/human.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oop/robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/robot.py" afterDir="false" />
     </list>
@@ -33,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.human">
+  <component name="RunManager" selected="Python.robot">
     <configuration name="human" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="com411" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.human" />
         <item itemvalue="Python.robot" />
+        <item itemvalue="Python.human" />
         <item itemvalue="Python.shift_sine" />
         <item itemvalue="Python.sine" />
         <item itemvalue="Python.marker" />
